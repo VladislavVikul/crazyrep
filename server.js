@@ -13,7 +13,7 @@ http.createServer(function(req, res){
 	}
 	res.writeHead(200);
 	if (uri !== '/get') {
-		res.write(fs.readFileSync('C:\\Users\\Пкашка\\Desktop\\СайтН\\' + uri));
+		res.write(fs.readFileSync(__dirname + uri));
 	} else {
 		res.write(counter.toString());
 	}

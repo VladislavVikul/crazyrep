@@ -1,5 +1,5 @@
 function loadData() {
-  var xhr = XMLHttpRequest();
+  var xhr = new XMLHttpRequest();
   xhr.addEventListener('load', function () {
     var elem = document.getElementById('counter');
     elem.innerHTML = xhr.responseText;
