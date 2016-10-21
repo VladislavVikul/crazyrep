@@ -1,0 +1,89 @@
+body{
+	background: #C2E8FF;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+#menu{
+	padding-top: 100px; 
+
+}
+a {
+  background-color: white; /*цвет кнопки*/
+  color: #777777; /*цвет текста*/
+  padding: 20px 15px; /* Поля вокруг текста */
+  text-decoration: none; /*подчёркивание*/
+  font-weight: bold; /*ширина шрифта*/
+  display: inline-block; 
+  border-radius: 4px;
+  transition-property: color, background-color;
+  transition-duration: 0.2s;
+  box-shadow: 0.2em 0.2em 5px rgba(122,122,122,0.5);
+  font-family: Franklin Gothic Book;
+}
+a:hover {
+ 	color: #49738D;
+ 	background-color: #C8EAFF; 
+
+ }
+
+li {
+	display: inline-block;
+	border: 40px;
+	margin-right: -5px;
+	padding-left: 2px;
+}
+
+
+ul{
+	border-radius: 10px;
+
+}
+.money-pack{
+	border-radius: 4px;
+	background-color: white;
+	width: 250px;
+	height: 400px;
+	border: 0.1px #C3D3DE solid;
+	margin-left: 40px;
+	box-shadow: 0.2em 0.2em 5px rgba(122,122,122,0.5);
+}
+#mymoney{
+	color: #777777;
+	font-weight: bold;
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-family: Franklin Gothic Book;
+}
+.information-pack{
+	border-radius: 4px;
+	background-color: white;
+	width: 800px;
+	height: 400px;
+	border: 0.1px #C3D3DE solid;
+	margin-left: 310px;
+	margin-top: -401px;
+	box-shadow: 0.2em 0.2em 5px rgba(122,122,122,0.5);
+}
+#name{
+	font-family: Franklin Gothic Book;
+	color: #606060;
+	margin-left: 250px;
+	font-size: 14px;
+}
+#age{
+	font-family: Franklin Gothic Book;
+	margin-top: -10px;
+	margin-left: 250px;
+	color: #606060;
+	font-size: 14px;
+}
+#obraz{
+	font-family: Franklin Gothic Book;
+	margin-top: -10px;
+	margin-left: 250px;
+	color: #606060;
+	font-size: 14px;
+}
