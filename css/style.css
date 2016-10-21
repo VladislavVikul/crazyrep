@@ -87,7 +87,11 @@ ul{
 	color: #606060;
 	font-size: 14px;
 }
-
+#shapka{
+	text-align: center;
+	font-family: Franklin Gothic Book;
+	
+}
 #counter {
 	display: block;
 	width: 100%;
